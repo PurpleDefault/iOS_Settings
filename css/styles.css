@@ -11,7 +11,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: #7C8084;
-	background: rgb(42, 46, 49);
+	background-color: #222222;
 }
 
 .settings-container {
@@ -29,6 +29,32 @@ body {
 
 /* SEARCHBAR HEADER STYLES */
 
+#darkModeButton,
+#darkModeButton span {
+	margin: auto 0px auto 0px;
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+
+#toggleButton {
+	background-color: #484D53;
+	border: 3px solid #FFFFFF;
+	border-radius: 50%;
+	height: 1.5rem;
+	width: 1.5rem;
+	margin-left: 0.5rem;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#toggleButton:hover {
+	transform: translateY(-0.25rem);
+}
+
+
+
+/* SEARCHBAR HEADER STYLES */
+
 header {
 	padding: 1.5rem 1rem;
 }
@@ -41,6 +67,7 @@ header {
 }
 
 #searchText {
+	color: #484D53;
 	font-weight: 500;
 	font-size: 1.1rem;
 	flex-basis: 80%;
